@@ -11,17 +11,19 @@ A collection of simple Bash scripts.
 1. [pass_detec.sh](pass_detec.sh):
    Create a file that contains these lines:
    ABd1234@1,aF1#,2w3E*,2We3345
+   
    aF1#,ABd1234#1
+   
    aF1#,2w3E*,2We3345,ABd1234@1
 
    Assume that these lines contain passwords.
    Create a Bash script that reads these lines, analyzes them, and extracts only the valid passwords.
 
-The valid passwords must meet the following criteria:
-Contain at least one lowercase letter [a-z]
-Contain at least one uppercase letter [A-Z]
-Contain at least one digit [0-9]
-Contain at least one special character from [$#@]
-The password must be at least 6 characters long and no more than 12 characters long
-The program must correctly handle the comma (,) as a delimiter
-The program should output the valid passwords to the terminal.
+   The valid passwords must meet the following criteria:
+   Contain at least one lowercase letter [a-z]
+   Contain at least one uppercase letter [A-Z]
+   Contain at least one digit [0-9]
+   Contain at least one special character from [$#@]
+   The password must be at least 6 characters long and no more than 12 characters long
+   The program must correctly handle the comma (,) as a delimiter
+   The program should output the valid passwords to the terminal.
