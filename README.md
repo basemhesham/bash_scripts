@@ -9,15 +9,7 @@ A collection of simple Bash scripts.
    this script changes the mode of the file based on file directory and permission which are entered by the user
    
 1. [pass_detec.sh](pass_detec.sh):
-   Create a file that contains these lines:
-   ABd1234@1,aF1#,2w3E*,2We3345
-   
-   aF1#,ABd1234#1
-   
-   aF1#,2w3E*,2We3345,ABd1234@1
-
-   Assume that these lines contain passwords.
-   Create a Bash script that reads these lines, analyzes them, and extracts only the valid passwords.
+   a simple bash script that reads file lines contain passwords, analyzes them, and extracts only the valid passwords.
 
    The valid passwords must meet the following criteria:
    Contain at least one lowercase letter [a-z]
@@ -27,3 +19,10 @@ A collection of simple Bash scripts.
    The password must be at least 6 characters long and no more than 12 characters long
    The program must correctly handle the comma (,) as a delimiter
    The program should output the valid passwords to the terminal.
+
+   Create a file that contains these lines:
+   ABd1234@1,aF1#,2w3E*,2We3345
+   aF1#,ABd1234#1
+   aF1#,2w3E*,2We3345,ABd1234@1
+
+
