@@ -20,9 +20,6 @@ A collection of simple Bash scripts.
    The program must correctly handle the comma (,) as a delimiter
    The program should output the valid passwords to the terminal.
 
-   Create a file that contains these lines:
-   ABd1234@1,aF1#,2w3E*,2We3345
-   aF1#,ABd1234#1
-   aF1#,2w3E*,2We3345,ABd1234@1
+ 
 
 
